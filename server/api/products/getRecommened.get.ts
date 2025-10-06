@@ -1,0 +1,128 @@
+export default defineEventHandler(async (event) => {
+
+    const data = [
+        {
+            id: 861,
+            img: "/newimg/dogfood.png",
+            title: "Breed Dry Dog Food",
+            shop: "BreedDry",
+            productCode: "00861",
+            quantity: 1,
+            bbprice: 100,
+            tmcprice: 0,
+            newProduct: "N",
+            productPercent: 99,
+            discount: "N",
+            newPrice: 0,
+            discountPercent: 0
+        },
+        {
+            id: 115,
+            img: "/img/img_2351519116522.jpg",
+            title: "กระบอกน้ำสแตนเลส",
+            shop: "BarterGang",
+            productCode: "00115",
+            quantity: 20,
+            bbprice: 0,
+            tmcprice: 790,
+            newProduct: "Y",
+            productPercent: 0,
+            discount: "Y",
+            newPrice: 99,
+            discountPercent: 87
+        },
+        {
+            id: 143,
+            img: "/img/img_5731520659036.jpg",
+            title: "โคมไฟลูกโลกหินอัญมณีแกนหินอ่อนตั้งพื้น",
+            shop: "BarterGang",
+            productCode: "00143",
+            quantity: 1,
+            bbprice: 9900,
+            tmcprice: 9900,
+            newProduct: "N",
+            productPercent: 95,
+            discount: "Y",
+            newPrice: 6500,
+            discountPercent: 34
+        },
+        {
+            id: 190,
+            img: "/img/flyster_skyhunter_x8_may_bay_f.jpg",
+            title: "SKY Hunter X 8 Selfie Drone โดรนบังคับ",
+            shop: "BarterGang",
+            productCode: "00190",
+            quantity: 1,
+            bbprice: 1900,
+            tmcprice: 0,
+            newProduct: "Y",
+            productPercent: 0,
+            discount: "N",
+            newPrice: 0,
+            discountPercent: 0
+        },
+        {
+            id: 386,
+            img: "/img/40_751.jpg",
+            title: "นาฬิกา BMW Motorsport ICE",
+            shop: "BmwBarcelona",
+            productCode: "00386",
+            quantity: 1,
+            bbprice: 6945,
+            tmcprice: 0,
+            newProduct: "Y",
+            productPercent: 0,
+            discount: "N",
+            newPrice: 0,
+            discountPercent: 0
+        },
+        {
+            id: 410,
+            img: "/img/61_020.jpg",
+            title: "แบบรถจำลอง",
+            shop: "BmwBarcelona",
+            productCode: "00410",
+            quantity: 1,
+            bbprice: 0,
+            tmcprice: 370,
+            newProduct: "Y",
+            productPercent: 0,
+            discount: "N",
+            newPrice: 0,
+            discountPercent: 0
+        },
+        {
+            id: 475,
+            img: "/img/ocs_5421564555034_537.jpg",
+            title: "เสื้อเรย่อน คอวี มีกระเป๋า",
+            shop: "PiggyGang",
+            productCode: "00475",
+            quantity: 1,
+            bbprice: 150,
+            tmcprice: 150,
+            newProduct: "Y",
+            productPercent: 0,
+            discount: "Y",
+            newPrice: 120,
+            discountPercent: 20
+        },
+        {
+            id: 499,
+            img: "/img/ocs-0821564559488.jpg",
+            title: "เสื้อยืดแขนยาว",
+            shop: "PiggyGang",
+            productCode: "00499",
+            quantity: 1,
+            bbprice: 150,
+            tmcprice: 150,
+            newProduct: "Y",
+            productPercent: 0,
+            discount: "Y",
+            newPrice: 120,
+            discountPercent: 20
+        },
+    ]
+
+    return data;
+
+})
